@@ -113,6 +113,10 @@ body {
     opacity: 0.6;
 }
 
+.copyright {
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
 @media (max-width: 900px) {
     .main {
