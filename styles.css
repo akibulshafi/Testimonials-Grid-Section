@@ -1,0 +1,122 @@
+:root {
+    --grid-1: #733fc8;
+    --grid-2: #49556b;
+    --grid-3: #ffffff;
+    --grid-4: #18202d;
+    --grid-5: #ffffff ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #edf2f8;
+    display: grid;
+    place-content: center;
+    width: 100%;
+}
+
+.testimonial-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.testimonial-grid .grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.bg4 {
+    grid-column: span 2;
+}
+
+.bg5 {
+    grid-column-start: 4;
+    grid-row: 1 / 4;
+}
+
+.bg1 {
+    background-color: var(--grid-1);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.quote {
+    background-image: url(./testimonials-grid-section-main/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 15%;
+    background-size: 10rem;
+}
+
+.flex {
+    display: flex;
+    font-size: 0.78rem;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1.3;
+}
+
+.flex img {
+    border-radius: 50%;
+    border: 3px solid #b3b4b2;
+    width: 3rem;
+    aspect-ratio: 1;
+}
+
+.flex p {
+    opacity: 60%;
+}
+
+.bg2 {
+    background-color: var(--grid-2);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.bg3 {
+    background-color: var(--grid-3);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #31364b;
+}
+
+.bg4 {
+    background-color: var(--grid-4);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.bg5 {
+    background-color: var(--grid-5);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #31364b;
+}
+
+.grid .paragraph > p:first-of-type {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 1.5rem 0rem;
+}
+
+.grid .paragraph > p:last-of-type {
+    opacity: 0.6;
+}
+
+
+@media (max-width: 900px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+}
