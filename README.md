@@ -28,3 +28,4 @@ Users should be able to:
 
 - Website - [Akibul Islam Shafi]( https://github.com/akibulshafi?tab=repositories)
 - Frontend Mentor - [@akibulshafi]( https://www.frontendmentor.io/profile/akibulshafi)
+- Twitter - [@akibulshafii](https://twitter.com/akibulshafii)
